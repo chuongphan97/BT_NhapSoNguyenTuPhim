@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập số nguyên dương</title>
+</head>
+<body>
+    <script>
+        let n= +prompt('Nhập vào số nguyên dương:');
+        console.log(n);
+        
+        while (isNaN(n) || n <= 0) { 
+            
+                alert('Vui lòng nhập vào số nguyên dương!');
+                n= prompt('Nhập vào số nguyên dương:')
+            
+        }
+
+        
+        
+
+
+        alert('Số nguyên dương là: '+n);
+    </script>
+    
+</body>
+</html>
